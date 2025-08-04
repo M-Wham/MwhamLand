@@ -1,0 +1,229 @@
+.roboto-<uniquifier> {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.alumni-sans-sc-<uniquifier> {
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #202020;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-shadow: rgba(115,255,0,0.8) 0px 0px 31px;
+}
+
+.title:hover {
+    color: #3cff00;
+}
+
+.links {
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: auto;
+    gap: 40px;
+    font-size: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.topbar a:hover {
+    color: #3cff00;
+}
+
+.mid1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2b2a2a;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(115,255,0,0.8) 0px 0px 31px;
+}
+
+.mid1 img {
+    width: 780px;
+    height: 600px;
+    margin: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: rgba(115,255,0,0.8) 0px 0px 31px;
+    border-radius: 10px;
+}
+
+.mid1 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.BoldTe {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.Butt1 {
+    font-family: "Press Start 2P", system-ui;
+    background-color: #3cff00;
+    color: #000;
+    border: 2px solid #000000;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.Te {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mid2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CBoxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.CBox {
+    display: flex;
+    flex-direction: column;
+    font-family: "Alumni Sans SC", sans-serif;
+}
+
+.img-placeholder {
+    width: 300px;
+    height: 200px;
+    background-color: #222222;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(115,255,0,0.8) 0px 0px 31px;
+    margin: 10px;
+}
+
+.midHeader {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mid3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+    font-family: "Alumni Sans SC", sans-serif;
+    background-color: #646464;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(115,255,0,0.8) 0px 0px 31px;
+    padding: 20px;
+    margin-top: 50px;
+    height: 400px;
+}
+
+.quoteAuthor {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.mid4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.SignUpBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(115,255,0,0.8);
+    border: 2px solid #ffffff;
+    padding: 20px;
+    width: 400px;
+}
+
+.SignUpText {
+    font-family: "Press Start 2P", system-ui;
+    font-size: 20px;
+    color: #000;
+}
+.SignUpText2 {
+    font-family: "Alumni Sans SC", sans-serif;
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+}
+.Butt2 {
+    font-family: "Press Start 2P", system-ui;
+    background-color: #3cff00;
+    color: #000;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alumni Sans SC", sans-serif;
+    background-color: #2b2a2a;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: 50px;
+}
+
